@@ -167,7 +167,7 @@ class HotelesPage extends StatelessWidget {
           ),
           body: Center(
             child: Hero(
-              tag: hotel.imagenUrl, // Utiliza el mismo tag que en la lista
+              tag: hotel.imagenUrl,
               child: Image.asset(
                 hotel
                     .paisaje, // Mostrar la imagen del paisaje en pantalla completa
